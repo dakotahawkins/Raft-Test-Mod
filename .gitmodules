@@ -1,0 +1,3 @@
+[submodule "utils/raft-prepare-release"]
+	path = utils/raft-prepare-release
+	url = ../../dakotahawkins/raft-prepare-release.git

@@ -1,0 +1,55 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMod", "TestMod\TestMod.csproj", "{34F1672A-F768-415B-9035-4F9FEBED27D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{286F000A-F5BB-4F62-A5D7-5796D42909FB}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ModResources", "ModResources", "{48E7B79F-9445-400F-8073-83247158A6EE}"
+	ProjectSection(SolutionItems) = preProject
+		ModResources\banner.jpg = ModResources\banner.jpg
+		ModResources\icon.jpg = ModResources\icon.jpg
+		ModResources\version.txt = ModResources\version.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "utils", "utils", "{56A5E7A9-6917-41B8-A4EB-0168E9AC5EB3}"
+	ProjectSection(SolutionItems) = preProject
+		utils\prepare-release = utils\prepare-release
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "raft-prepare-release", "raft-prepare-release", "{691C2EC6-3BF9-475B-B74D-B7D418379474}"
+	ProjectSection(SolutionItems) = preProject
+		utils\raft-prepare-release\prepare-release = utils\raft-prepare-release\prepare-release
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{34F1672A-F768-415B-9035-4F9FEBED27D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34F1672A-F768-415B-9035-4F9FEBED27D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34F1672A-F768-415B-9035-4F9FEBED27D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34F1672A-F768-415B-9035-4F9FEBED27D8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{48E7B79F-9445-400F-8073-83247158A6EE} = {286F000A-F5BB-4F62-A5D7-5796D42909FB}
+		{56A5E7A9-6917-41B8-A4EB-0168E9AC5EB3} = {286F000A-F5BB-4F62-A5D7-5796D42909FB}
+		{691C2EC6-3BF9-475B-B74D-B7D418379474} = {56A5E7A9-6917-41B8-A4EB-0168E9AC5EB3}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B5AF1975-FF8C-4220-B0D3-0892BDA92417}
+	EndGlobalSection
+EndGlobal
